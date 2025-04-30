@@ -64,6 +64,14 @@ The frontend application will open in your web browser, usually at `http://local
 
 Paste your code into the text area on the Streamlit app and click "Get Review" to receive feedback from the DeepSeek-Coder model.
 
+## Demo Result
+
+**Video Demo Example :**
+
+```markdown
+[![Video Demo Thumbnail](Resources/thumbnail.png)](Resources/Demo.mp4)
+```
+
 ## Project Structure
 
     CodeReviewAssistant/

@@ -13,7 +13,7 @@ if st.button("Get Review"):
                 response.raise_for_status()  # Raise an exception for bad status codes
                 review = response.json().get("review", "No feedback returned.")
                 st.subheader("Review & Suggestions:")
-                st.code(review)
+                st.markdown(review)
             except requests.exceptions.RequestException as e:
                 st.error(f"Error contacting backend: {e}")
             except Exception as e:
